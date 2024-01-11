@@ -1,0 +1,66 @@
+.title{
+    font-size: 27px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.daily-forecast{
+        background-color: #fff;
+        color: #0a0505;
+        border-radius: 15px;
+        height: 40px;
+        margin: 5px 30px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 5px 20px;
+}
+.icon-forecast{
+    width: 40px;
+}
+.temp{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.days{
+    color: #333;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.description{
+        flex: 1 1;
+        margin-right: 15px;
+        text-align: right ;
+        color: #333;
+        font-size: 15px;
+}
+.min-max{
+    color: #5d5b5b;
+}
+.details-forecast{
+    display: grid;
+    grid-row-gap : 0;
+    grid-column-gap : 15px;
+    row-gap: 0;
+    column-gap: 15px;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+
+}
+.details-forecast-items{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.details-forecast-items label:first-child{
+    color: green;
+}   
+.details-forecast-items label:last-child{
+        color: red;
+}

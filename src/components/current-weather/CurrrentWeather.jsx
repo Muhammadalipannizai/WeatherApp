@@ -11,7 +11,7 @@ function CurrrentWeather({data}) {
         <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png`} />
       </div>
       <div className="bottom">
-        <p className="temperature">{Math.round(data.main.temp)}°C</p>
+        <p className="temperature">{Math.round(data.main.temp)}°</p>
         <div className="details">
           <div className="row">
             <span className="label">Feels Like</span>
