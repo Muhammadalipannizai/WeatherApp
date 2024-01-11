@@ -16,7 +16,7 @@
         padding: 5px 20px;
 }
 .icon-forecast{
-    width: 40px;
+    width: 50px;
 }
 .temp{
     font-weight: 600;
@@ -47,7 +47,7 @@
     column-gap: 15px;
     flex: 1 1;
     grid-template-columns: auto auto;
-    padding: 5px 15px;
+    padding: 15px 40px;
 
 }
 .details-forecast-items{
