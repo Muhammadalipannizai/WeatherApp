@@ -1,9 +1,10 @@
 body {
+  height: 100vh;
   margin: 0;
   font-family: 'Roboto', Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F8F4EC;
+  background-color: #3498db;
 }
 
 code {

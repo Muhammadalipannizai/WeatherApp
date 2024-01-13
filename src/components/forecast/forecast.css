@@ -59,8 +59,8 @@
 
 }
 .details-forecast-items label:first-child{
-    color: green;
+    color: #fff;
 }   
 .details-forecast-items label:last-child{
-        color: red;
+        color: #fff;
 }
