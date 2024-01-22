@@ -5,6 +5,7 @@ import { url, geoApi } from "../../api";
 function Search({onSearch}) {
   const [search, setSearch] = useState(null);
 
+
   const loadOptions = async (inputValue) => {
     try {
       const response = await fetch(
@@ -21,7 +22,8 @@ function Search({onSearch}) {
         }),
       };
     } catch (error) {
-      console.error(error);
+      console.error(' Error ');
+      return { options: [] };
     }
   };
   const handleChange = (searchData) => {
@@ -29,6 +31,7 @@ function Search({onSearch}) {
     onSearch(searchData);
   };
   return (
+    <>
     <AsyncPaginate
       placeholder="Search cities"
       debounceTimeout={600}
@@ -36,6 +39,8 @@ function Search({onSearch}) {
       onChange={handleChange}
       loadOptions={loadOptions}
     />
+
+     </>
   );
 }
 
